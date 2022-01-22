@@ -493,7 +493,7 @@ main ()
 	printf
 	  ("we are a group of btech students of SRM\n1)B JATHIN SANJAY\n2)KOUSHIRAM\n3)SAI SAATHVIK\n4)SAI MANISH");
 	printf
-	  ("\nYOU CAN CONTACT US ANY QUERIES\n 9182264148\nFOR email id \n bs5418@srmist.edu.in");
+	  ("\nYOU CAN CONTACT US ANY QUERIES\n 9182264149\nFOR email id \n bs5418@srmist.edu.in");
 	break;
 
 	list3 ();
