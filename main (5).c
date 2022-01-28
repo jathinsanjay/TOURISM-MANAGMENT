@@ -77,7 +77,7 @@ registration (void)
   struct login l;
   red ();
   printf
-    ("\nWelcome to  SRM TOURS AND TRAVELS. We need to enter some details for registration.\n\n");
+    ("\nWelcome to  SRM TOURS AND TRAVELS. You need to enter some details for registration.\n\n");
   printf ("\nEnter First Name:\n");
   scanf ("%c", l.fname);
   printf ("\nEnter Surname:\n");
@@ -150,9 +150,9 @@ int
 list3 ()
 {
   int a;
-  printf ("enter any digit to continue\n");
+  printf ("enter  to continue\n");
   cyan ();
-  scanf ("%d", &a);
+  getchar();
   return a;
 }
 
@@ -748,3 +748,4 @@ main ()
 
   return 0;
 }
+
