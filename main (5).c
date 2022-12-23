@@ -1,6 +1,6 @@
 /******************************************************************************
              TOURISM MANAGMENT 
-DONE AS A PROJECT BY B JATHIN SANJAY,KOUSHIRAM.SAI SAATHVIK,V MANISH
+DONE AS A PROJECT BY B JATHIN SANJAY
 
 *******************************************************************************/
 #include <stdio.h>
