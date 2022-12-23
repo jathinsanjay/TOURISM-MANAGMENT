@@ -14,64 +14,6 @@ struct login
   char password[20];
 };
 void
-login (void)
-{
-  char username[30], password[20];
-  FILE *log;
-
-  log = fopen ("login.txt", "r");
-  if (log == NULL)
-    {
-      fputs ("Error at opening File!", stderr);
-
-    }
-
-  struct login l;
-
-  printf ("\nPlease Enter your login credentials below\n\n");
-  printf ("Username:  ");
-  fgets (username, 30, stdin);
-  printf ("\nPassword: ");
-  printf ("\n");
-  fgets (password, 20, stdin);
-
-  while (fread (&l, sizeof (l), 1, log))
-    {
-      if (strcmp (username, l.username) == 0
-	  && strcmp (password, l.password) == 0)
-
-	{
-	  printf ("\nSuccessful Login\n");
-	  getchar ();
-	}
-      else
-	{
-	  printf
-	    ("\nIncorrect Login Details\nPlease enter the correct credentials\n");
-	}
-    }
-
-  fclose (log);
-
-  return;
-}
-
-
-
-
-void
-registration (void)
-{
-  green ();
-  char firstname[15];
-  FILE *log;
-
-  log = fopen ("login.txt", "w");
-  if (log == NULL)
-    {
-      fputs ("Error at opening File!", stderr);
-      exit (1);
-    }
 
 
   struct login l;
